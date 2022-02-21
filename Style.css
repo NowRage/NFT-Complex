@@ -1,0 +1,99 @@
+
+body {
+	padding: 0 2%;
+	margin: 0;
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+}
+
+@font-face {
+	
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/* src: url("../Documents/minecraft_font.ttf") format("truetype"); */
+/* DEBUT DE LA NAV */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color : #1c1c1e ;
+    color : #fefefe ;
+	position: sticky;
+	top: 0;
+}
+nav .profile {
+	display: block;
+	align-items: center;
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+
+}
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+	
+
+}
+nav .profile p{
+	position: absolute; top: 70px;
+	position:absolute; left: 700px;
+	font-size: 30px;
+	background-color : #1c1c1e ;
+    color : #00FF00 ;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+}
+nav ul li {
+	margin-right: 50px;
+	cursor: pointer;
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+	font-size: 20px;
+    
+	
+}
+nav ul li:hover {
+
+    background-color : #1c1c1e ;
+    color : #fefefe ;
+}
+a:visited {
+	color: #fefefe;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+/* FIN DE LA NAV */
+
+
+/* POUR LES MENTIONS */
+footer {
+	margin-top: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #1c1c1e;
+	color: #fefefe;
+}
+footer .colonne p {
+	font-size: 12px;
+	
+	cursor: pointer;
+    background-color :  #1c1c1e;
+    color : #fefefe ;
+}
+footer .colonne p:hover {
+	background-color : #1c1c1e ;
+    color : #fefefe ;
+    
+}
+/* FIN DES MENTIONS */
