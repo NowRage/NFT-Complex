@@ -1,15 +1,16 @@
 
 body {
+	font-family: 'Noto Sans JP', sans-serif;
 	padding: 0 2%;
 	margin: 0;
     background-color : #1c1c1e ;
     color : #fefefe ;
 }
 
-@font-face {
+/* @font-face {
 	
-    font-family: 'Noto Sans JP', sans-serif;
-}
+    
+} */
 /* src: url("../Documents/minecraft_font.ttf") format("truetype"); */
 /* DEBUT DE LA NAV */
 nav {
